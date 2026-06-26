@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corvin GSM | Premium Accessories & Gear</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@300;400;600&family=Geist:wght@400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body data-theme="cyan">
+
+    <div class="ambient-glow glow-top-left"></div>
+    <div class="ambient-glow glow-bottom-right"></div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                CORVIN <span class="logo-badge">GSM</span>
+            </div>
+            
+            <div class="nav-links">
+                <a href="#katalogus" data-lang-key="nav-products">Kínálatunk</a>
+                <a href="#kalkulator-szekcio" data-lang-key="nav-calc">Kosár Kalkulátor</a>
+                <a href="#kapcsolat" data-lang-key="nav-contact">Kapcsolat</a>
+            </div>
+
+            <div class="nav-controls-wrapper">
+                <div class="theme-selector-panel">
+                    <button class="theme-dot cyan active" data-theme-trigger="cyan" title="Electric Cyan"></button>
+                    <button class="theme-dot amber" data-theme-trigger="amber" title="Solar Amber"></button>
+                    <button class="theme-dot green" data-theme-trigger="green" title="Matrix Green"></button>
+                </div>
+                <div class="nav-right">
+                    <button id="lang-toggle" class="lang-btn">EN</button>
+                    <a href="#kalkulator-szekcio" class="nav-cta" data-lang-key="nav-reserve">Félretétel</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-grid">
+        <div class="hero-content">
+            <div class="location-ticker">
+                <span class="ticker-dot"></span>
+                <span data-lang-key="hero-loc">Budapest, Blaha Lujza tér</span>
+            </div>
+            <h1 class="hero-headline">
+                TECH GEAR &<br>
+                <span class="gradient-text" data-lang-key="hero-title">ACCESSORIES.</span>
+            </h1>
+            <p class="hero-subtext" data-lang-key="hero-sub">
+                Prémium okostelefon kiegészítők, tokok, audio kiegészítők és SIM kártyák a Blaha Lujza tér szívében. Minőségi termékek azonnal raktárról, versenyképes árakon.
+            </p>
+            <div class="hero-actions">
+                <a href="#katalogus" class="btn-primary" data-lang-key="hero-browse">Böngészés →</a>
+                <a href="tel:+36202101915" class="btn-secondary">Tel: +36 20 210 1915</a>
+            </div>
+        </div>
+        
+        <div class="hero-visual">
+            <div class="wireframe-box">
+                <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" class="icon-phone">
+                    <rect width="14" height="20" x="5" y="2" rx="2" ry="2"/>
+                    <path d="M12 18h.01"/>
+                </svg>
+                <div class="wf-title">[ PRODUCT DEPOT ]</div>
+                <div class="wf-subtitle" data-lang-key="hero-wf-sub">PRÉMIUM KIEGÉSZÍTŐK</div>
+                <div class="wf-footer">
+                    <span>RETAIL.REV // 2026</span>
+                    <span>BUDAPEST // HU</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="katalogus" class="catalog-section">
+        <div class="section-header">
+            <span class="section-tag" data-lang-key="cat-tag">[ KATEGÓRIÁK ]</span>
+            <h2 data-lang-key="cat-title">Kiemelt Termékeink</h2>
+            <p data-lang-key="cat-sub">Válogatott, minőségi kiegészítők azonnal a készletünkről</p>
+        </div>
+
+        <div class="price-catalog-grid">
+            <div class="catalog-card">
+                <div class="catalog-img-container">
+                    <svg viewBox="0 0 100 100" class="component-svg">
+                        <rect x="32" y="16" width="36" height="68" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
+                        <rect x="29" y="28" width="3" height="8" fill="var(--accent-theme-main)"/>
+                        <circle cx="50" cy="50" r="7" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                    </svg>
+                </div>
+                <div class="catalog-info">
+                    <h3 data-lang-key="prod-t1">Prémium Telefon Tokok</h3>
+                    <p class="catalog-desc" data-lang-key="prod-d1">Ütésálló szilikon és átlátszó tokok a legújabb iPhone és Samsung modellekre.</p>
+                    <div class="catalog-price-tag">3 000 Ft-tól</div>
+                </div>
+            </div>
+
+            <div class="catalog-card">
+                <div class="catalog-img-container">
+                    <svg viewBox="0 0 100 100" class="component-svg">
+                        <path d="M25,50 C40,25 60,75 75,50" fill="none" stroke="currentColor" stroke-width="2.5"/>
+                        <rect x="15" y="44" width="10" height="12" rx="2" fill="var(--accent-theme-main)"/>
+                        <rect x="75" y="44" width="10" height="12" rx="2" fill="currentColor"/>
+                    </svg>
+                </div>
+                <div class="catalog-info">
+                    <h3 data-lang-key="prod-t2">Gyorstöltő Kábelek</h3>
+                    <p class="catalog-desc" data-lang-key="prod-d2">Megerősített, fonott textillel bevont Type-C, Lightning és microUSB adatkábelek.</p>
+                    <div class="catalog-price-tag">4 000 Ft</div>
+                </div>
+            </div>
+
+            <div class="catalog-card">
+                <div class="catalog-img-container">
+                    <svg viewBox="0 0 100 100" class="component-svg">
+                        <path d="M28,60 C28,25 72,25 72,60" fill="none" stroke="currentColor" stroke-width="2.5"/>
+                        <rect x="20" y="52" width="12" height="20" rx="4" fill="var(--accent-theme-main)"/>
+                        <rect x="68" y="52" width="12" height="20" rx="4" fill="var(--accent-theme-main)"/>
+                    </svg>
+                </div>
+                <div class="catalog-info">
+                    <h3 data-lang-key="prod-t3">Fej- és Fülhallgatók</h3>
+                    <p class="catalog-desc" data-lang-key="prod-d3">TWS vezeték nélküli fülhallgatók és prémium Bluetooth headsetek kiváló hangzással.</p>
+                    <div class="catalog-price-tag">6 000 Ft-tól</div>
+                </div>
+            </div>
+
+            <div class="catalog-card">
+                <div class="catalog-img-container">
+                    <svg viewBox="0 0 100 100" class="component-svg">
+                        <path d="M65,20 L78,33 L78,80 L22,80 L22,20 Z" fill="none" stroke="currentColor" stroke-width="2"/>
+                        <rect x="32" y="42" width="24" height="16" rx="2" fill="none" stroke="var(--accent-theme-main)" stroke-width="1.5"/>
+                        <line x1="32" y1="50" x2="56" y2="50" stroke="var(--accent-theme-main)" stroke-width="1"/>
+                    </svg>
+                </div>
+                <div class="catalog-info">
+                    <h3 data-lang-key="prod-t4">SIM Kártyák & Feltöltés</h3>
+                    <p class="catalog-desc" data-lang-key="prod-d4">Hazai szolgáltatói SIM kártyák, azonnali aktiválással és egyenlegfeltöltéssel.</p>
+                    <div class="catalog-price-tag">2 500 Ft-tól</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="kalkulator-szekcio" class="calculator-section">
+        <div class="section-header">
+            <span class="section-tag" data-lang-key="calc-tag">[ KOSÁR ]</span>
+            <h2 data-lang-key="calc-title">Tartozék Árkalkulátor</h2>
+            <p data-lang-key="calc-sub">Állítsd össze a csomagod, és nézd meg az azonnali végösszeget.</p>
+        </div>
+
+        <div class="calc-widget">
+            <div class="calc-inputs">
+                <div class="input-group">
+                    <label class="group-label" data-lang-key="calc-instruction">Kattints a kiegészítőkre a hozzáadáshoz:</label>
+                    <div id="accessory-list" class="repair-options">
+                        </div>
+                </div>
+            </div>
+
+            <div class="calc-receipt">
+                <div class="receipt-top">
+                    <div>
+                        <h4 data-lang-key="rec-title">Kosár Összegzés</h4>
+                        <p class="receipt-meta">CORVIN-GSM-RETAIL // 2026</p>
+                    </div>
+                </div>
+
+                <div class="receipt-details">
+                    <div id="receipt-items-list" class="receipt-items-container">
+                        </div>
+                    <div class="receipt-row border-top-dashed">
+                        <span class="label" data-lang-key="rec-status">Átvétel helye:</span>
+                        <span class="value dynamic-theme-text" data-lang-key="rec-shop">Üzletünkben (Azonnal)</span>
+                    </div>
+                </div>
+
+                <div class="receipt-total-block">
+                    <span class="total-label" data-lang-key="rec-total">Fizetendő:</span>
+                    <span id="receipt-price" class="total-price">0 Ft</span>
+                </div>
+
+                <div class="receipt-action">
+                    <button id="book-btn" class="submit-btn" data-lang-key="rec-submit">Termékek Félretétele</button>
+                    <p class="disclaimer" data-lang-key="rec-disc">A kiválasztott termékeket 24 órára félretesszük az Ön nevére az üzletben.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="kapcsolat" class="footer">
+        <div class="footer-grid">
+            <div class="footer-info">
+                <h3>CORVIN GSM</h3>
+                <p data-lang-key="foot-sub">Az Ön megbízható GSM tartozék és kiegészítő boltja Budapest szívében. Átlátható, fix árak és hatalmas azonnali raktárkészlet.</p>
+                <div class="contact-details">
+                    <p class="contact-row">📍 1085 Budapest, József körút 82.</p>
+                    <p class="contact-sub" data-lang-key="foot-loc-sub">(A Blaha Lujza tér közvetlen közelében, a 4-es/6-os villamosvonal mentén)</p>
+                    <p class="contact-row">📞 <a href="tel:+36202101915">+36 20 210 1915</a></p>
+                </div>
+            </div>
+
+            <div class="footer-hours">
+                <div class="hours-tag" data-lang-key="foot-hours">🕒 Nyitvatartási Idő</div>
+                <div class="hours-table">
+                    <div class="hours-row">
+                        <span data-lang-key="days-wk">Hétfő - Szombat</span>
+                        <span class="bold-white">10:00 - 20:00</span>
+                    </div>
+                    <div class="hours-row closed">
+                        <span data-lang-key="days-su">Vasárnap</span>
+                        <span class="muted-text" data-lang-key="closed">Zárva</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-dashboard">
+                <div class="dash-row"><span data-lang-key="dash-status">ÜZLET STÁTUSZ:</span><span class="green-text">NYITVA</span></div>
+                <div class="dash-row"><span data-lang-key="dash-stock">KÉSZLET ERŐSSÉG:</span><span>99.2%</span></div>
+                <div class="dash-copyright">© 2026 CORVIN GSM. ALL RIGHTS RESERVED.</div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
